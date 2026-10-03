@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hornbyte | AI and Technology, Explained Simply</title>
+<meta name="description" content="Hornbyte explains artificial intelligence and technology in plain language, with practical guides for everyday people.">
+<meta name="google-site-verification" content="Jp1FGdW7fffpyUpycC-KaHaCYKuGj5qNnzUsVnd3BiY">
+<style>
+:root{--bg:#f8fafc;--ink:#0f172a;--mute:#475569;--brand:#2563eb;--accent:#0d9488;--card:#ffffff;--line:#e2e8f0;box-sizing:border-box}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#090d16;--ink:#f1f5f9;--mute:#94a3b8;--brand:#60a5fa;--accent:#2dd4bf;--card:#111827;--line:#1e293b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.7}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+nav{padding:24px 0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:1.4rem;text-decoration:none;color:var(--ink);letter-spacing:-0.03em}.logo span{color:var(--accent)}
+nav div a{margin-left:20px;color:var(--mute);text-decoration:none;font-weight:600;font-size:0.95rem}nav div a.on{color:var(--brand)}
+.view{display:none;padding:20px 0 50px}.view.on{display:block}
+h1{font-size:clamp(2.2rem,6vw,3.2rem);line-height:1.1;margin:40px 0 16px;letter-spacing:-.03em;font-weight:900}
+.lead{color:var(--mute);font-size:1.15rem;max-width:54ch;margin:0 0 30px}
+.btn{display:inline-block;background:var(--brand);color:#fff;font-weight:700;text-decoration:none;padding:12px 24px;border-radius:12px;font-size:1rem;transition:opacity 0.2s}
+.btn:hover{opacity:0.9}
+article{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:24px 0;box-shadow:0 4px 6px -1px rgba(0,0,0,0.02)}
+article svg{display:block;width:100%;height:auto}
+.body{padding:28px}
+time{font-size:0.85rem;color:var(--mute);text-transform:uppercase;letter-spacing:0.05em;font-weight:600}
+h2{font-size:1.5rem;line-height:1.3;margin:8px 0 14px;font-weight:800;letter-spacing:-0.01em}
+.body p{margin:0 0 16px;color:var(--mute)}
+summary{cursor:pointer;color:var(--brand);font-weight:700;list-style:none;font-size:0.95rem}
+details[open] summary{margin-bottom:12px}
+.share{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:20px;padding-top:20px;border-top:1px solid var(--line);font-size:0.9rem;color:var(--mute)}
+.share a{padding:6px 14px;border:1px solid var(--line);border-radius:20px;color:var(--ink);text-decoration:none;font-weight:600;background:var(--bg)}
+.news{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:32px;margin:32px 0}
+.news h2{margin-top:0}.news p{color:var(--mute);margin:0 0 20px}
+footer{padding:30px 0 50px;color:var(--mute);font-size:0.9rem;border-top:1px solid var(--line)}
+footer a{color:var(--mute);margin-right:20px;text-decoration:none}footer a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="logo" href="#home">Horn<span>byte</span></a>
+<div><a href="#home" data-v="home">Articles</a><a href="#about" data-v="about">About</a><a href="#contact" data-v="contact">Contact</a></div></nav>
+
+<section class="view" id="v-home">
+<h1>AI and technology, explained simply.</h1>
+<p class="lead">Clear guides on artificial intelligence, modern apps, and digital tools. Written in plain English with no technical jargon.</p>
+<div id="posts"></div>
+<div class="news">
+  <h2>Get new articles in your inbox</h2>
+  <p>Receive a short, valuable update whenever a new guide is published. No spam, ever.</p>
+  <a class="btn" href="mailto:ahmedlibanmohamed52@gmail.com?subject=Subscribe%20to%20Hornbyte&body=Please%20add%20me%20to%20the%20Hornbyte%20newsletter.">Subscribe via Email</a>
+</div>
+</section>
+
+<section class="view" id="v-about">
+<h1>About Hornbyte</h1>
+<p class="lead">Hornbyte is an independent publication dedicated to making artificial intelligence and digital skills accessible to everyone around the world.</p>
+<p class="lead">We break down complex innovations into practical steps so you can use technology to save time, learn faster, and grow.</p>
+</section>
+
+<section class="view" id="v-contact">
+<h1>Contact Us</h1>
+<p class="lead">Have a question, feedback, or a topic suggestion? Send us an email directly.</p>
+<a class="btn" href="mailto:ahmedlibanmohamed52@gmail.com?subject=Hornbyte%20Inquiry">Send Email</a>
+</section>
+
+<footer>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <br><br>© 2026 Hornbyte. All rights reserved.
+</footer>
+</div>
+
+<script>
+var P=[
+["2026-10-01","What is AI, really? A beginner's guide","Artificial intelligence is software designed to recognize patterns in massive amounts of data, helping it write, translate, and solve problems.","Chatbots and modern apps do not think like humans; they predict the next likely word or action based on previous training. Always review critical outputs for accuracy.","#2563eb","#0d9488","AI"],
+["2026-09-28","5 ways to use AI to save hours every week","You don't need a technical background to leverage AI for daily productivity and learning improvements.","Use AI tools to summarize long articles, draft professional emails, translate languages, plan study schedules, and explain difficult concepts simply.","#7c3aed","#2563eb","5"],
+["2026-09-24","Free digital skills worth learning this year","Valuable modern skills can be learned completely online using just a smartphone and an internet connection.","Key areas to focus on: basic digital literacy, prompt engineering, online research methods, and foundational web publishing.","#0d9488","#0284c7","</>"]
+];
+
+var out=P.map(function(p,i){
+ var t=encodeURIComponent(p[1]+" - Hornbyte"),u=encodeURIComponent("https://hornbyte.com");
+ var d=new Date(p[0]+"T12:00:00").toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"});
+ return '<article><svg viewBox="0 0 800 220" role="img" aria-label="'+p[1]+'"><defs><linearGradient id="g'+i+'" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="'+p[4]+'"/><stop offset="1" stop-color="'+p[5]+'"/></linearGradient></defs><rect width="800" height="220" fill="url(#g'+i+')"/><text x="400" y="135" text-anchor="middle" font-family="system-ui,sans-serif" font-size="90" font-weight="900" fill="#fff" fill-opacity=".9">'+p[6]+'</text></svg><div class="body"><time datetime="'+p[0]+'">'+d+'</time><h2>'+p[1]+'</h2><p>'+p[2]+'</p><details><summary>Read full guide</summary><p>'+p[3]+'</p></details><div class="share">Share: <a href="https://wa.me/?text='+t+'%20'+u+'" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u='+u+'" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text='+t+'&url='+u+'" target="_blank">X</a></div></div></article>';
+}).join("");
+document.getElementById("posts").innerHTML=out;
+
+function show(){
+ var h=(location.hash||"#home").slice(1);if(!document.getElementById("v-"+h))h="home";
+ document.querySelectorAll(".view").forEach(function(v){v.classList.toggle("on",v.id==="v-"+h)});
+ document.querySelectorAll("nav [data-v]").forEach(other=>other.classList.remove("on"));
+ var activeNav=document.querySelector('nav [data-v="'+h+'"]');
+ if(activeNav) activeNav.classList.add("on");
+ window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",show);show();
+</script>
+</body>
+</html>
